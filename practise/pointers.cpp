@@ -53,5 +53,6 @@ int main(){
     for(int i=0; i<5; i++){
         cout << p[i] << endl;
     }
+    free(p); // deallocating the memory allocated for the array in the heap using free function.
     return 0;
 }
