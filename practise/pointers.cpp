@@ -82,3 +82,4 @@ using namespace std;
     return 0;
 } 
 // note -> all are taking 8 bytes because they are all pointer variables and the size of a pointer variable is determined by the architecture of the system (32-bit or 64-bit) and not by the data type it points to. In a 64-bit system, the size of a pointer variable is typically 8 bytes, while in a 32-bit system, it is typically 4 bytes.
+
