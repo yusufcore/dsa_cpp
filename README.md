@@ -23,5 +23,3 @@ This repository is part of my journey to build a strong foundation in Computer S
 
 - C++
 - Standard Template Library (STL)
-
-## Repository Structure
