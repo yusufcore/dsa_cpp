@@ -8,6 +8,7 @@ This repository is part of my journey to build a strong foundation in Computer S
 
 ## Topics Covered
 
+- Recursion
 - Arrays
 - Strings
 - Linked Lists
