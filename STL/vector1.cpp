@@ -16,4 +16,19 @@ int main(){
     cout << v.back() << endl;
     cout << v.size() << endl;
 
+    for(int i=1;i<=10;i++){
+        v.push_back(i);
+
+        cout << "Size = " << v.size() << " Capacity = " << v.capacity() << endl;
+      
+    
+    cout << v.size() << " ";
+    cout << v.capacity() << endl;
+
+    v.push_back(5);
+
+    cout << v.size() << " ";
+    cout << v.capacity() << endl;
+    }
+
 }
