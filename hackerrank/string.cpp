@@ -17,7 +17,7 @@ int main() {
     a[0]=b[0];
     b[0]=temp;
     
-    cout << a << " " << b <<endl;
+    cout << a << " " << b <<endl; // 
     
   
     return 0;
