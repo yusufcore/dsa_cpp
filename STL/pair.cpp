@@ -1,17 +1,28 @@
 #include<bits/stdc++.h> // 
 using namespace std;
 
-void explainPair() {
-    pair<int, int> p = {1, 5};
-    cout << p.first << " " << p.second;
-
-    pair<int, pair<int, float>> f = {1, {3, 6.78}};
-    cout << f.first << " " << f.second.second << " " << f.second.first;
-
-    pair<int, int> arr[] = {{1,2}, {3,5}, {5, 1}};
-    cout << arr[1].second;
-}
 int main(){
-    explainPair();
-    return 0;
+    pair<int, string> p; 
+    // p = make_pair(2, "abc"); // inserting values into pair.
+    p = {2, "abcd"};
+    pair<int, string> &p1 = p;  // reference(&) changes the original value of the pair.
+    p1.first = 3;
+    cout << p.first << " " << p.second << endl; 
+    // p.first -> 2, p.second -> "abc" 
+
+    // storing two arrays as a pair.
+    pair<int, int> arr[3];
+    arr[0] = {1,2};
+    arr[1]= {2,3};
+    arr[2] = {3,4};
+    swap(arr[0], arr[1]);
+
+    // printing the arrays stored as a pair.
+    for(int i = 0; i <3; i++){
+        cout << arr[i].first << " " << arr[i].second << endl;
+    }
 }
+// pair is used for maintaining relationship between two values.
+// pair is a container that holds two values of different data types.
+// It is defined in the <utility> header file and is part of the C++ Standard Library. 
+// The pair class template provides a way to store and manipulate two related values as a single unit. Each value in a pair is referred to as "first" and "second". The pair can be used to store any combination of data types, making it a versatile tool for various programming tasks.
