@@ -1,24 +1,26 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+void printVec(vector<int> v){
+    cout << "Size: " << v.size() << endl;
+    for(int i =0; i<v.size();i++){
+        // v.size() -> O(1)
+        cout << v[i] << " ";
+    }
+    cout << endl;
+}
 int main(){
     vector<int> v;   // creating a vector array.
-
-    v.push_back(10);
-    v.push_back(20);  // to insert array elements.
-    v.push_back(30);
-    v.push_back(79);
-
-    // v.pop_back();   // remove the last inputted element.
-    
-    cout << v[0] << endl;
-    cout << v[1] << endl;
-    cout << v[2] << endl;
-    cout << v[3] << endl;
-    cout << v.size() << endl;  // prints the size of the vector array.
-    
-    for(int i=0; i<v.size();i++){   // printing entire vector array.
-        cout << v[i] << endl;
+    int n;
+    cin >> n;
+    for(int i = 0; i<n; i++){
+        int x;
+        cin >> x;
+        printVec(v);
+        v.push_back(x); // O(1) 
     }
-    
+    printVec(v);
+    vector<int> v2 = v; // copying the vector v into v2.  // O(n) 
+    v2.push_back(100); 
+    printVec(v2);
 }
