@@ -7,20 +7,19 @@ A collection of Data Structure implementations and practice programs written in 
 This repository is part of my journey to build a strong foundation in Computer Science and problem-solving through Data Structures.
 
 ## Topics Covered
-
-- Recursion
 - Arrays
-- Strings
-- Linked Lists
-- Stacks
-- Queues
-- Hash Tables
-- Trees
-- Binary Search Trees
-- Heaps
-- Graphs
+- STL
+- Recursion
 
-## Tech Stack
+## Platforms
+- LeetCode
+- Codeforces
+- CodeChef
+- HackerRank
 
-- C++
-- Standard Template Library (STL)
+## Progress
+- Arrays: ✅
+- STL: ✅
+- Recursion: ✅
+- Linked List: ⏳
+- Trees: ⏳
